@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'z2ipq#*pk8cq(t%(!#y9c95z=!$3u%=-cncli1m+-es%adzo_e'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['kiarash-portfolio.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
@@ -139,9 +139,3 @@ from django.contrib.messages import constants as messages
 MESSAGE_TAGS = {
     messages.ERROR: 'danger',
 }
-
-Email_Host = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'skiarash57@gmail.com'
-EMAIL_HOST_PASSWORD = 'xchvuhhfqiijejrx'
-EMAIL_USE_TLS = True
