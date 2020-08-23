@@ -24,6 +24,7 @@ SECRET_KEY = 'z2ipq#*pk8cq(t%(!#y9c95z=!$3u%=-cncli1m+-es%adzo_e'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
+DEBUG_PROPAGATE_EXCEPTIONS = True
 
 ALLOWED_HOSTS = ['btre-realestate-82.herokuapp.com', '127.0.0.1']
 
